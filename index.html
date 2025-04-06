@@ -1,70 +1,31 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مدونة كاثي</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            direction: rtl;
-            text-align: right;
-            padding: 20px;
-        }
-        h1 {
-            color: #002f6c;
-        }
-        nav {
-            background-color: #002f6c;
-            padding: 10px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        .content {
-            margin: 20px 0;
-        }
-        .favorite-items img {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            border-radius: 8px;
-        }
-        .favorite-items {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-    </style>
-</head>
-<body>
+<header>
+  <h1>مدونة كاثي</h1>
+  <p>مرحبًا بك في عالمي الصغير!</p>
+</header>
 
-    <nav>
-        <a href="#about">عن كاثي</a>
-        <a href="#favorites">أشيائي المفضلة</a>
-    </nav>
+<nav>
+  <ul>
+    <li><a href="#about">عن المدونة</a></li>
+    <li><a href="#favorites">المفضلات</a></li>
+    <li><a href="#gallery">الصور</a></li>
+  </ul>
+</nav>
 
-    <div class="content" id="about">
-        <h1>مرحبًا بك في مدونة كاثي!</h1>
-        <p>هذه المدونة مكان هادي وسط الزحمة. فيها انعكاس بسيط للي أحبه، أكتبه، وأحس فيه.</p>
-    </div>
+<section id="about">
+  <h2>عن المدونة</h2>
+  <p>هنا أكتب عن كل ما أحب ...</p>
+</section>
 
-    <div class="content" id="favorites">
-        <h1>أشيائي المفضلة</h1>
-        <p>هنا بعض الأشياء اللي تعني لي الكثير:</p>
-        <div class="favorite-items">
-            <img src="https://via.placeholder.com/300x200?text=صورة+نينق" alt="نينق">
-            <img src="https://via.placeholder.com/300x200?text=صورة+كتاب" alt="كتاب مفضل">
-            <img src="https://via.placeholder.com/300x200?text=صورة+مكان+مفضل" alt="مكان مفضل">
-        </div>
-    </div>
+<section id="favorites">
+  <h2>المفضلات</h2>
+  <p>شخصياتي المفضلة: نينق، آسا، وأكثر!</p>
+</section>
 
-</body>
-</html>
+<section id="gallery">
+  <h2>الصور</h2>
+  <img src="yourimage.jpg" alt="صورة تعبيرية">
+</section>
+
+<footer>
+  <p>تم التصميم بواسطة كاثي</p>
+</footer>
